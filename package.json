@@ -9,6 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
   "dependencies": {
     "express": "^4.21.1",
     "readline-sync": "^1.4.10"
