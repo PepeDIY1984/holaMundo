@@ -29,9 +29,9 @@ router.post("/rutaPOST", (req, res) => {
 //   });
 // });
 
-// router.post("/rutaPOSTconBody", (req, res) => {
-//   console.log(req.body);
-//   res.send("informacion recibida");
-// });
+router.post("/rutaPOSTconBody", (req, res) => {
+  console.log(req.body);
+  res.send("informacion recibida");
+});
 
 module.exports = router;
